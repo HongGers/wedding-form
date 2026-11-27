@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f5ef">
+  <meta name="description" content="鄭丞宏與陳昱臻的婚禮邀請函。2027 年 3 月 13 日，邀請你一起見證我們的這一天。">
+  <title>鄭丞宏 & 陳昱臻｜婚禮邀請函</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="主要導覽">
+      <a class="wordmark" href="#top" aria-label="丞宏與昱臻，回到封面">C <i>&amp;</i> Y</a>
+      <div class="nav-links">
+        <a href="#about">關於我們</a>
+        <a href="#details">婚禮詳情</a>
+        <a class="nav-rsvp" href="#rsvp">出席回函</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="couple-names">
+      <div class="hero-photo">
+        <img src="landing-img.JPG" alt="丞宏和昱臻的婚紗合照" width="4032" height="6048" fetchpriority="high">
+      </div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">The Wedding Invitation</p>
+          <h1 id="couple-names"><span>鄭丞宏</span><i aria-hidden="true">&amp;</i><span>陳昱臻</span></h1>
+          <p class="hero-tagline">昱見你，彷彿找到人生的彩宏</p>
+          <div class="hero-date">
+            <time datetime="2027-03-13T12:00:00+08:00">2027.03.13 <span>12:00 PM</span></time>
+          </div>
+        </div>
+      </div>
+      <a class="hero-next" href="#about" aria-label="往下瀏覽邀請函"><span aria-hidden="true"></span></a>
+    </section>
+
+    <section id="about" class="about section-pad" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">With Love</p>
+        <h2 id="about-title">關於我們</h2>
+        <p class="about-invitation">想把這一天，分享給一路陪伴我們的你。</p>
+      </div>
+
+      <div class="countdown-block" aria-labelledby="countdown-title">
+        <h3 id="countdown-title">距離婚禮還有</h3>
+        <dl class="countdown" id="countdown">
+          <div class="countdown-card"><dt>天 <span>DAYS</span></dt><dd id="days">00</dd></div>
+          <div class="countdown-card"><dt>時 <span>HRS</span></dt><dd id="hours">00</dd></div>
+          <div class="countdown-card"><dt>分 <span>MIN</span></dt><dd id="minutes">00</dd></div>
+          <div class="countdown-card"><dt>秒 <span>SEC</span></dt><dd id="seconds">00</dd></div>
+        </dl>
+        <p class="countdown-message" id="countdown-message" hidden>婚禮時間已到。</p>
+      </div>
+    </section>
+
+    <section id="details" class="details section-pad" aria-labelledby="details-title">
+      <div class="section-heading">
+        <p class="eyebrow">The Celebration</p>
+        <h2 id="details-title">婚禮詳情</h2>
+      </div>
+
+      <div class="details-card">
+        <header class="details-date">
+          <time datetime="2027-03-13T12:00:00+08:00">2027.03.13</time>
+          <p>星期六 <span aria-hidden="true">／</span> <span class="no-wrap">中午 12:00</span></p>
+        </header>
+        <dl class="details-list">
+          <div><dt>婚禮儀式 <span>Ceremony</span></dt><dd>待定</dd></div>
+          <div><dt>午宴資訊 <span>Reception</span></dt><dd>待定</dd></div>
+          <div><dt>服裝建議 <span>Dress Code</span></dt><dd>待定</dd></div>
+        </dl>
+
+        <details class="travel">
+          <summary><span>交通指引 <small>Directions</small></span></summary>
+          <dl class="travel-list">
+            <div><dt>婚禮地點</dt><dd><span class="no-wrap">待定</span></dd></div>
+            <div><dt>地址</dt><dd><span class="no-wrap">待定</span></dd></div>
+            <div><dt><span class="no-wrap">捷運站</span></dt><dd><span class="no-wrap">待定</span></dd></div>
+            <div><dt>停車資訊</dt><dd><span class="no-wrap">待定</span></dd></div>
+          </dl>
+        </details>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp section-pad" aria-labelledby="rsvp-title">
+      <div class="section-heading">
+        <p class="eyebrow">Kindly Reply</p>
+        <h2 id="rsvp-title">出席回函</h2>
+      </div>
+
+      <form id="rsvp-form" class="rsvp-form" method="post" target="rsvp-frame">
+        <div class="field">
+          <label for="guest-name">姓名 <span lang="en">NAME</span></label>
+          <input id="guest-name" name="entry.1262556027" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="guest-relationship">與新人關係 <span lang="en">RELATIONSHIP</span></label>
+          <select id="guest-relationship" name="entry.1495490774" required>
+            <option value="" selected disabled></option>
+            <option>男方親戚</option>
+            <option>男方朋友</option>
+            <option>男方同事</option>
+            <option>女方親戚</option>
+            <option>女方朋友</option>
+            <option>女方同事</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="guest-count">參加午宴人數 <span lang="en">LUNCH GUEST COUNT</span></label>
+          <input id="guest-count" name="entry.513553074" type="number" inputmode="numeric" min="0" step="1" required aria-describedby="count-hint count-not-attending" aria-controls="guest-needs">
+          <p id="count-hint" class="field-hint">請包含本人，使用兒童椅的賓客另計。</p>
+          <p id="count-not-attending" class="field-hint" role="status" hidden>目前回函僅接受出席登記。如無法出席，請直接聯繫新人。</p>
+        </div>
+        <fieldset id="guest-needs" hidden disabled>
+          <div class="field">
+            <label for="guest-diet">飲食需求 <span lang="en">DIETARY NEEDS</span></label>
+            <select id="guest-diet" name="entry.1866120219" required>
+              <option value="" selected disabled></option>
+              <option>葷食</option>
+              <option>素食</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="guest-chair">是否需要兒童椅 <span lang="en">HIGH CHAIR</span></label>
+            <input id="guest-chair" name="entry.493684720" type="number" inputmode="numeric" min="0" step="1" aria-describedby="chair-hint">
+            <p id="chair-hint" class="field-hint">如需兒童椅，請填寫張數。</p>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="guest-wishes">給新人的祝福 <span lang="en">WISHES</span></label>
+          <textarea id="guest-wishes" name="entry.1053223517" rows="3"></textarea>
+        </div>
+        <div class="field">
+          <label for="guest-notes">備註 <span lang="en">NOTES</span></label>
+          <input id="guest-notes" name="entry.398280177" type="text">
+        </div>
+        <button type="submit" disabled>送出回函</button>
+        <p id="rsvp-status" class="form-status" role="status" hidden></p>
+        <noscript><p class="form-status">請啟用 JavaScript 以使用出席回函。</p></noscript>
+      </form>
+      <iframe id="rsvp-frame" name="rsvp-frame" title="Google 表單回函" hidden></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark" href="#top" aria-label="丞宏與昱臻，回到封面">C <i>&amp;</i> Y</a>
+    <p>鄭丞宏 <span aria-hidden="true">&amp;</span> 陳昱臻</p>
+  </footer>
+</body>
+</html>
